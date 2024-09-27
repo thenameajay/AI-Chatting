@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import "./Styles/AI.css"
 import Markdown from "react-markdown"
+import logoimg from "./Images/logo.png"
 
 function AI() {
 
@@ -68,6 +69,7 @@ function AI() {
     return (
         <>
             <div id="brand-name">
+                <img id="logo-img" src={logoimg} />
                 ALICE
             </div>
             <div id="chat-section">
